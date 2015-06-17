@@ -1,0 +1,11 @@
+{
+        "name" : "docker-centos-hello",
+	"private" : true,
+        "version" : "0.0.1",
+        "description" : "Node.js Helo world app on CentOS using docker",
+        "author" : "Patrick Huber phuber@humana.com",
+        "dependencies" : {
+                "express" : "3.2.4"
+        }
+}
+
