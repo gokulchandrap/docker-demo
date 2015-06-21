@@ -1,6 +1,7 @@
 FROM	centos:7
 
-RUN	yum install golang git  -y &&\
+RUN	yum install golang git -y &&\
+	yum clean all &&\
 	mkdir -p /go/bin &&\
 	mkdir -p /app/src
 
