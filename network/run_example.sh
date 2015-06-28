@@ -1,4 +1,4 @@
 #!/bin/bash
-docker build -t db server
-docker build -t web client
+docker build -t api api
+docker build -t web web
 
